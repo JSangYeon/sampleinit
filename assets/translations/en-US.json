@@ -1,4 +1,6 @@
 {
+  "languageChoiceScreen": "Language Choice Screen",
+  "SampleWidgetScreen" : "Sample Widget Screen",
   "hello": "hello",
   "name": "name",
   "clear": "clear",

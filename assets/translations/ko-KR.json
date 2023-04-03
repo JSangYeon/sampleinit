@@ -1,4 +1,6 @@
 {
+  "languageChoiceScreen": "언어 선택 화면",
+  "SampleWidgetScreen" : "샘플 위젯 화면",
   "hello": "안녕",
   "name": "이름",
   "clear": "청소",
