@@ -1,5 +1,26 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.sampleinit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30"
+        tools:targetApi="donut" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30"
+        tools:targetApi="donut" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"
+        tools:ignore="SystemPermissionTypo" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"
+        tools:ignore="SystemPermissionTypo" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"
+        tools:ignore="SystemPermissionTypo" />
    <application
         android:label="sampleinit"
         android:name="${applicationName}"

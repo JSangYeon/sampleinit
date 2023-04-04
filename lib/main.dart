@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:sampleinit/second_screen.dart';
+import 'package:sampleinit/screens/ble_scan_screen.dart';
 
-import 'home_page.dart'; // 다국어 지원 패키지
+import 'screens/home_screen.dart'; // 다국어 지원 패키지
 
 
 
@@ -46,9 +46,9 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         // "/" Route로 이동하면, FirstScreen 위젯을 생성합니다.
-        '/': (context) => const SafeArea(child: HomePage()), //SafeArea 적용 (statusBar)
+        '/': (context) => const SafeArea(child: HomeScreen()), //SafeArea 적용 (statusBar)
         // "/second" route로 이동하면, SecondScreen 위젯을 생성합니다.
-        '/second': (context) => const SafeArea(child: SecondScreen()), //SafeArea 적용 (statusBar)
+        '/second': (context) => const SafeArea(child: BleScanScreen()), //SafeArea 적용 (statusBar)
       },
     );
   }

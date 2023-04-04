@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:sampleinit/utils/color_util.dart';
 
-class ColoredTextView extends StatefulWidget {
+class ColoredTextWidget extends StatefulWidget {
   final String text;
   final String colorName;
 
-  const ColoredTextView({
+  const ColoredTextWidget({
     Key? key,
     required this.text,
     required this.colorName, //반드시 파라미터로 있어야하면 required 필요
   }) : super(key: key);
 
   @override
-  ColoredTextViewState createState() => ColoredTextViewState();
+  ColoredTextWidgetState createState() => ColoredTextWidgetState();
 }
 
-class ColoredTextViewState extends State<ColoredTextView> {
+class ColoredTextWidgetState extends State<ColoredTextWidget> {
   Color? backgroundColor;
 
   @override

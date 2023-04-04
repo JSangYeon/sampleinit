@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   # 다국어 지원용 패키지
   easy_localization: ^3.0.1
+  calendar_timeline: ^1.1.2 # 캘린더
+  permission_handler: ^8.3.0 #퍼미션 핸들러
 
 dev_dependencies:
   flutter_test:
