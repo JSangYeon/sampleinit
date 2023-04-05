@@ -1,6 +1,7 @@
 {
   "languageChoiceScreen": "Language Choice Screen",
   "BleScanScreen" : "Ble Scan Screen",
+  "bleScan": "Ble Scan",
   "hello": "hello",
   "name": "name",
   "clear": "clear",

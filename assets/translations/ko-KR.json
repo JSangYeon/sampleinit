@@ -1,6 +1,7 @@
 {
   "languageChoiceScreen": "언어 선택 화면",
   "BleScanScreen" : "블루투스 스캔 화면",
+  "bleScan": "블루투스 스캔",
   "hello": "안녕",
   "name": "이름",
   "clear": "청소",

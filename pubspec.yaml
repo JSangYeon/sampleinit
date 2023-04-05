@@ -39,6 +39,8 @@ dependencies:
   easy_localization: ^3.0.1
   calendar_timeline: ^1.1.2 # 캘린더
   permission_handler: ^8.3.0 #퍼미션 핸들러
+  device_info_plus: ^8.1.0 #Android Device 정보 확인용도
+  flutter_blue_plus: ^1.4.0
 
 dev_dependencies:
   flutter_test:
