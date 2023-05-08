@@ -22,12 +22,12 @@ class ColoredTextWidgetState extends State<ColoredTextWidget> {
   void initState() {
     super.initState();
     debugPrint("initState ColoredTextView : ${widget.colorName}" );
-      ColorUtil.getColor(widget.colorName).then((color) {
-        setState(() {
-          backgroundColor = color;
-          debugPrint("setState: color: $backgroundColor");
-        });
+    ColorUtil.getColor(widget.colorName).then((color) {
+      setState(() {
+        backgroundColor = color;
+        debugPrint("setState: color: $backgroundColor");
       });
+    });
   }
   @override
   Widget build(BuildContext context) {

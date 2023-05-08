@@ -41,6 +41,8 @@ dependencies:
   permission_handler: ^8.3.0 #퍼미션 핸들러
   device_info_plus: ^8.1.0 #Android Device 정보 확인용도
   flutter_blue_plus: ^1.4.0
+  http: ^0.13.5 # 이 부분에 http 패키지 추가
+  flutter_riverpod: ^2.3.6
 
 dev_dependencies:
   flutter_test:
